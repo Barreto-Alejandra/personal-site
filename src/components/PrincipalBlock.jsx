@@ -11,9 +11,23 @@ const PrincipalBlock = () => (
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="contentBlock__greetings">
-                        <p>Hello</p>
+                    <h4 className="contentBlock__animateGreetings">
+                        <div>
+                            <ul className="flip4">
+                                <li>Hola!</li>
+                                <li>Mba’éichapa!</li>
+                                <li>Hi!</li>
+                                <li>Olá!</li>
+                            </ul>
+                        </div>
+                    </h4>
+
+                    <div className="text">
+                        <p>
+                            I’m Alejandra Barreto, a <span>Front-end developer.</span> <br/> Born in Paraguay, living in Colombia.
+                        </p>
                     </div>
+
                 </div>
             </div>
         </div>
