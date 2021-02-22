@@ -1,4 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0;
-    background: red;
+
+    // background-image: url('../static/pattern-2.jpg');
 }

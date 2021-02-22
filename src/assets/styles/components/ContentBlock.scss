@@ -1,0 +1,25 @@
+.contentBlock {
+    .container {
+        position: relative;
+        z-index: 20;
+        padding-top: 5rem;
+    }
+}
+
+//background
+.contentBlock__bg {
+    height: 100%;
+    width: 177.77777778vh;
+    width: 100%;
+    min-width: 100%;
+    min-height: 56.25vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
