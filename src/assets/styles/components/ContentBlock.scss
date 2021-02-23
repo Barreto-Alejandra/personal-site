@@ -3,6 +3,7 @@
 //colors
 $black: #020205;
 $turquesa: #008891;
+$turquesa-2: #55b3b1;
 
 .contentBlock {
     .container {
@@ -48,7 +49,7 @@ $turquesa: #008891;
             text-align: center;
             li {
                 font-family: 'RocknRoll One', sans-serif;
-                color: $turquesa;
+                color: $turquesa-2;
                 font-size: 40px;
                 letter-spacing: 1.5px;
                 font-weight: 700;
@@ -113,6 +114,7 @@ $turquesa: #008891;
     & p {
         margin: 0;
         line-height: 1.3;
+        font-size: 18px;
         & span {
             font-weight: 700;
         }

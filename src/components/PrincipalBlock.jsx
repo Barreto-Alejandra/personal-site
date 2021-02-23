@@ -27,7 +27,16 @@ const PrincipalBlock = () => (
                             I’m Alejandra Barreto, a <span>Front-end developer.</span> <br/> Born in Paraguay, living in Colombia.
                         </p>
                     </div>
+                </div>
 
+                <div className="col-12">
+                    <ul className="socialmediaBlock">
+                        <li className="socialmediaBlock">
+                            <a href="#" target="_blank">
+                                
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
