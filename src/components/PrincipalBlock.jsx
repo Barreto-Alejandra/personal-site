@@ -29,7 +29,7 @@ const PrincipalBlock = () => (
                     </div>
                 </div>
 
-                <div className="col-12">
+                {/* <div className="col-12">
                     <ul className="socialmediaBlock">
                         <li className="socialmediaBlock">
                             <a href="#" target="_blank">
@@ -37,7 +37,7 @@ const PrincipalBlock = () => (
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>
