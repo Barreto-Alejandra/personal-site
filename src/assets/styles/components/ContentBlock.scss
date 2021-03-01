@@ -19,14 +19,11 @@ $turquesa-2: #55b3b1;
 //background
 .contentBlock__bg {
     height: 100%;
-    width: 177.77777778vh;
     width: 100%;
     min-width: 100%;
-    min-height: 56.25vw;
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     z-index: 1;
     background-size: cover;
@@ -147,6 +144,51 @@ $turquesa-2: #55b3b1;
         padding-top: 1rem;
         & p {
             font-size: 20px;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        padding-top: 1rem;
+        & p {
+            font-size: 25px;
+        }
+    }
+}
+
+
+
+
+// social media
+.socialmediaBlock {
+    max-width: 120px;
+    margin: 0 auto;
+    padding: 2.5rem 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (min-width: 1200px) {
+        max-width: 150px;
+    }
+}
+
+
+.socialmediaBlock__item {
+    & a {
+        text-decoration: none;
+        & img {
+            width: 30px;
+            height: 30px;
+            transform: scale(1);
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        & a {
+            & img {
+                width: 35px;
+                height: 35px;
+            }
         }
     }
 }
